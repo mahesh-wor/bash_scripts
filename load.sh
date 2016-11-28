@@ -11,13 +11,13 @@ echo -e "This is Help Section For Loadshedding script.\nsyntax : load <group> <d
 exit 1							# Exit After Displaying Help
 fi
 echo "-------------Loadshedding-------------"	# For Better Looking :D :P
-v1=" 5 am :  2 pm ||  6 pm : 10 pm " 		# Initialized Information
-v2="11 am :  7 pm ||      ***      "		# Even If New Loadshedding Schedule Comes, Changing it Changes all the Script
-v3=" 3 am : 10 am || 12 pm :  8 pm "		# Makes It new.
-v4=" 6 am :  3 pm ||  7 pm : 11 pm "
-v5="10 am :  4 pm ||  8 pm : 12 pm "
-v6=" 4 am : 12 pm ||  4 pm : 10 pm "
-v7=" 5 am : 11 am ||  3 pm :  9 pm " 
+v4=" 5 am : 11 pm ||  4 pm :  8 pm " 		# Initialized Information
+v5=" 7 am :  2 pm ||  6 pm :  9 pm  "		# Even If New Loadshedding Schedule Comes, Changing it Changes all the Script
+v6=" 4 am :  8 pm ||  1 pm :  6 pm "		# Makes It new.
+v7=" 4 am :  9 pm ||  2 pm :  5 pm "
+v1=" 6 am :  1 pm ||  5 pm :  9 pm "
+v2="11 am :  5 pm ||  8 pm : 11 pm "
+v3=" 9 am :  4 am ||  7 pm : 10 pm " 
 if [ $1 -eq 1 ]					# Values Given Acc. To Group
 then
 echo -e "Group $1\n"				# -e so that we can use \n \t etc.
