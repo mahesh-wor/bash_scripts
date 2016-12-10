@@ -7,4 +7,4 @@ sleep 1
 echo 
 echo "Wireless Device Up" 
 echo "MAC Spoofed to 00:11:22:33:44:55"
-echo "					       			Script By: M.D"
+echo "					       			 Script By: M.D"
